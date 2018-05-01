@@ -1,0 +1,65 @@
+body {
+    background-color: aliceblue;
+    text-align: left;
+    text-decoration: inherit;
+    letter-spacing: 2px;
+    padding: 50px;
+}
+
+.homepic {
+    object-fit: cover;
+}
+
+header {
+    padding-left: 55px;
+    padding-top: 55px;
+}
+
+p {
+    padding: 50px;
+
+    outline-style: solid;
+    outline-color: darkgreen;
+}
+
+a {
+    color: hotpink;
+}
+
+.links {
+    color: hotpink;
+}
+.mySlides {
+    display:none;
+    object-fit: cover;
+    height: 600px;
+}
+.demo {cursor:pointer}
+
+.smallpic {
+    object-fit: cover;
+    height: 200px;
+}
+
+#map {
+  height: 450px;
+  border-radius: 25px;
+}
+
+.main {
+  background-color: rgba(34, 55, 71, 0.8);
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 350px;
+  padding: 25px;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+
+.mapimg {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}

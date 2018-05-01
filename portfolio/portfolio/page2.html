@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio Website</title>
+<link rel="stylesheet" href="portfolio.css">
+<link href="portfolio.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Sharif Saenz's Portfolio</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li class="active" ><a href="page2.html">Pokemon Gym Map</a></li>
+      <li><a href="page3.html">Other class work: D-Day</a></li>
+      <li><a href="page4.html">Chatroom</a></li>
+    </ul>
+  </div>
+</nav>
+  
+    
+    
+    <p>This is a map on where in our world the pokemon gyms would be if this was thee real world. <br>
+    You can zoom in/out with the plus/minus symbol in the bottom right hand corner or you can press ctrl + scroll<br>
+    In the top right corner you can make the page full screen<br>
+    in the top left corner you can change between satilite and map mode to be able to see terrain.<br>
+    to move the map you click and hold<br>
+    You can click a bouncing gym symbol to find more on the gym<br>
+    You can click on a gym leader's name to be sent to their page(blocked by school)
+    </p>
+    
+    
+    <div class="main">
+        <div id="map"></div>
+    </div>
+
+    <script src="p5.min.js"></script>
+    <script src="page2.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="page2.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwFLPFZKH9Grzbcc96hYG6KNDNPmJm_x8&callback=initMap" async defer></script>
+</body>
+</html>
